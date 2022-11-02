@@ -7,9 +7,9 @@ function Profile() {
   return (
     <div>
         <input type='file' accept='image/*' name='photo' id='profile_img' />
-        <label htmlFor='profile_img' onClick={updateProfilePhoto} className='profilePhotoLabel' >
+        <label htmlFor='profile_img' className='profilePhotoLabel' >
             <div  role='button' className='profile-button' title='Click to change Photo'>
-            <img src={profilePhoto}  alt='profile'/>
+            <img src=""  alt='profile'/>
             </div>
         </label> 
         <div className='username'>
